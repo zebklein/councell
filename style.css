@@ -38,12 +38,12 @@ nav ul li a{
 nav ul li a:after{
     content: "";
     position: absolute;
-    background-color: rgb(100, 149, 255);
+    background-color: rgb(86, 128, 79);
     height: 3px;
     width: 0;
     left: 0;
     bottom: -10px;
-    transition: 0.5s;
+    transition: 0.75s;
 }
 
 nav ul li a:hover:after{
@@ -72,12 +72,12 @@ nav ul li a:hover{
     font-size: 4vw;
     color: rgb(154, 135, 111);
     font-weight: 600;
-    transition: 0.5s;
+    transition: 2s;
     padding: 50px 0;
 }
 
 .hero-content h1:hover{
-    color: rgb(56, 56, 56);
+    color: rgb(75, 103, 72);
 }
 
 .hero-content a{

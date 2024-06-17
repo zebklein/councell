@@ -98,13 +98,15 @@ nav ul li:hover .submenu{
     color: rgb(154, 135, 111);
     font-weight: 600;
     transition: 2s;
-    padding: 50px 0;
+    padding: 70px 0px 50px;
+    text-align: center;
 }
 
 .hero-content h1:hover{
     color: rgb(75, 103, 72);
 }
 
+/* not sure what this is
 .hero-content a{
     text-decoration: none;
     display: inline-block;
@@ -114,7 +116,23 @@ nav ul li:hover .submenu{
     padding: 14px 70px;
     border-radius: 50px;
     margin-top: 20px;
+}*/
+
+.hero-content p, .hero-content p i{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
 }
+
+.hero-content .column {
+    float: left;
+    width: 33.33%;
+}
+
+.hero-content img {
+    width: 500px;
+    height: 500px;
+}
+
 
 /* #endregion */
 
@@ -142,11 +160,6 @@ nav ul li:hover .submenu{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1vw;
     padding: 30px;
-}
-
-.about-content p i{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1vw;
 }
 
 .about-content #statement{

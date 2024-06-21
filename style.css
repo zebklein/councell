@@ -98,7 +98,7 @@ nav ul li:hover .submenu{
     color: rgb(154, 135, 111);
     font-weight: 600;
     transition: 2s;
-    padding: 70px 0px 50px;
+    padding: 70px 0px 30px;
     text-align: center;
 }
 
@@ -121,16 +121,13 @@ nav ul li:hover .submenu{
 .hero-content p, .hero-content p i{
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
-}
-
-.hero-content .column {
-    float: left;
-    width: 33.33%;
+    text-align: center;
 }
 
 .hero-content img {
-    width: 500px;
-    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -180,6 +177,50 @@ nav ul li:hover .submenu{
     font-size: 0.8vw;
     padding: 5px;
     text-align: center;
+}
+
+/* #endregion */
+
+/* #region watercolor */
+
+.recent .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.recent .container h3{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 60px 0px 20px;
+    font-weight: bolder;
+}
+
+.recent .container p{
+    font-size: 1.5em;
+    border-bottom:  2px solid #222;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px 0px 20px;
+}
+
+.recent .container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent .container .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.recent .container .box .dream img{
+    width: 100%;
 }
 
 /* #endregion */

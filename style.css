@@ -10,7 +10,7 @@
 
 nav{
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     padding: 20px 2%;
@@ -91,7 +91,6 @@ nav ul li:hover .submenu{
     background-color: #fff;
 }
 
-
 .hero-content h1{
     font-family: Papyrus, fantasy;
     font-size: 4vw;
@@ -122,6 +121,9 @@ nav ul li:hover .submenu{
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
     text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-content img {
@@ -137,12 +139,12 @@ nav ul li:hover .submenu{
 
 .about-content {
     margin: 100px auto 200px;
-    width: 40%;
+    width: 750px;
 }
 
 .about-content h1{
     font-family: Papyrus, fantasy;
-    font-size: 2vw;
+    font-size: 30px;
     color: rgb(154, 135, 111);
     font-weight: 600;
     transition: 2s;
@@ -155,12 +157,12 @@ nav ul li:hover .submenu{
 
 .about-content p{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1vw;
+    font-size: 20px;
     padding: 30px;
 }
 
 .about-content #statement{
-    padding: 0px;;
+    padding: 0px;
 }
 
 .about-content hr{
@@ -170,57 +172,74 @@ nav ul li:hover .submenu{
 }
 
 .about-content .contact{
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .about-content .contact p{
-    font-size: 0.8vw;
+    font-size: 18px;
     padding: 5px;
     text-align: center;
+}
+
+.about-content #signature {
+    width: 400px;
+    margin: auto;
+    display: block;
 }
 
 /* #endregion */
 
 /* #region watercolor */
 
-.recent .container{
+.container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 40px 20px 0 20px;
+    margin: 60px 20px 0 20px;
 }
 
-.recent .container h3{
+.container h3{
     font-size: 2em;
     font-family: 'Courier New', Courier, monospace;
-    padding: 60px 0px 20px;
+    padding-bottom: 20px;
     font-weight: bolder;
 }
 
-.recent .container p{
+.container p{
     font-size: 1.5em;
     border-bottom:  2px solid #222;
     font-family: 'Courier New', Courier, monospace;
     padding: 0px 0px 20px;
 }
 
-.recent .container .box{
+.container .box{
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
 
-.recent .container .box .dream{
+.container .box .dream{
     display: flex;
     flex-direction: column;
     width: 32.5%;
 }
 
-.recent .container .box .dream img{
+.container .box .dream img{
     width: 100%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 769px){
+    .container .box{
+        flex-direction: column;
+    }
+    .container .box .dream{
+        width: 100%;
+    }
 }
 
 /* #endregion */

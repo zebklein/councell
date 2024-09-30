@@ -293,6 +293,29 @@ nav ul li:hover .submenu{
     .container .box .dream{
         width: 100%;
     }
+
+    .container .box .subgallery{
+        width: 100%;
+    }
+}
+
+/* #endregion */
+
+/* #region subgallery selector */
+
+.container .box .subgallery{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+
+#subgallery_box{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container .box .subgallery img{
+    width: 100%;
 }
 
 /* #endregion */

@@ -132,6 +132,17 @@ nav ul li:hover .submenu{
     margin-right: auto;
 }
 
+.hero-content #banner{
+    width: 100vw;
+    margin-top: 63px;
+    margin-bottom: 75px;
+}
+
+.hero-content #statement{
+    border: solid 2px;
+    padding: 40px;
+}
+
 
 /* #endregion */
 
@@ -156,7 +167,7 @@ nav ul li:hover .submenu{
 }
 
 .about-content p{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     padding: 30px;
 }
@@ -310,12 +321,18 @@ nav ul li:hover .submenu{
 }
 
 #subgallery_box{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 50px 100px 0px
 }
 
 .container .box .subgallery img{
     width: 100%;
+}
+
+#subgallery_box h4{
+    font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
 }
 
 /* #endregion */

@@ -94,7 +94,7 @@ nav ul li:hover .submenu{
 .hero-content h1{
     font-family: Papyrus, fantasy;
     font-size: 4vw;
-    color: rgb(154, 135, 111);
+    color: rgb(116, 102, 85);
     font-weight: 600;
     transition: 2s;
     padding: 70px 0px 30px;
@@ -118,8 +118,8 @@ nav ul li:hover .submenu{
 }*/
 
 .hero-content p, .hero-content p i{
-    font-family: "Playwrite GB S", cursive;
-    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
     text-align: center;
     width: 60%;
     margin-left: auto;

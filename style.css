@@ -201,8 +201,8 @@ nav ul li:hover .submenu{
 }
 
 .container h3{
-    font-size: 2em;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    font-family: Papyrus, fantasy;
     padding-bottom: 20px;
     font-weight: bolder;
 }
@@ -210,11 +210,23 @@ nav ul li:hover .submenu{
 .container p{
     font-size: 1.5em;
     border-bottom:  2px solid #222;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
     padding: 0px 0px 20px;
     width: 80%;
     margin: auto;
 }
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+    //font-family: "Gill Sans", "Gill Sans MT";
+.montserrat-font {
+
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
 
 .container .box{
     padding-top: 20px;

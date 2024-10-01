@@ -91,7 +91,7 @@ nav ul li:hover .submenu{
     background-color: #fff;
 }
 
-.hero-content h1{
+/* .hero-content h1{
     font-family: Papyrus, fantasy;
     font-size: 4vw;
     color: rgb(116, 102, 85);
@@ -100,24 +100,11 @@ nav ul li:hover .submenu{
     padding: 70px 0px 30px;
     text-align: center;
 }
-
 .hero-content h1:hover{
     color: rgb(75, 103, 72);
-}
+} */
 
-/* not sure what this is
-.hero-content a{
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    font-size: 24px;
-    border: 2px solid #fff;
-    padding: 14px 70px;
-    border-radius: 50px;
-    margin-top: 20px;
-}*/
-
-.hero-content p, .hero-content p i{
+.hero-content p{
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     text-align: center;
@@ -214,7 +201,6 @@ nav ul li:hover .submenu{
 .container h3{
     font-size: 4em;
     font-family: Papyrus, fantasy;
-    padding-bottom: 20px;
     font-weight: bolder;
 }
 
@@ -227,17 +213,6 @@ nav ul li:hover .submenu{
     width: 80%;
     margin: auto;
 }
-
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-    //font-family: "Gill Sans", "Gill Sans MT";
-.montserrat-font {
-
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
 
 .container .box{
     padding-top: 20px;
@@ -252,7 +227,7 @@ nav ul li:hover .submenu{
     width: 32.5%;
 }
 
-#fifty{
+#dream_2x1{
     width: 49%;
 }
 
@@ -314,21 +289,29 @@ nav ul li:hover .submenu{
 
 /* #region subgallery selector */
 
-.container .box .subgallery{
-    display: flex;
-    flex-direction: column;
-    width: 23%;
-}
-
 #subgallery_box{
     margin: 50px 100px 0px
 }
 
-.container .box .subgallery img{
+#subgallery_box_4x1 .subgallery{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+#subgallery_box_4x1 .subgallery img{
     width: 100%;
 }
 
-#subgallery_box h4{
+#subgallery_box_3x1 .subgallery{
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+}
+#subgallery_box_3x1 .subgallery img{
+    width: 100%;
+}
+
+#subgallery_box_3x1 h4, #subgallery_box_4x1 h4{
     font-size: 1.5em;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;

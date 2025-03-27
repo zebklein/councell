@@ -19,14 +19,6 @@ nav{
     justify-content: space-between;
 }
 
-/* nav-home{
-    width: 100%;
-    padding: 20px 2%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-
 nav ul li{
     list-style: none;
     display: inline-block;
@@ -87,6 +79,95 @@ nav ul li:hover .submenu{
 
 /* #endregion */
 
+/* #region home nav bar */
+
+.nav-home{
+    width: 100%;
+    padding: 20px 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-home ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav-home ul li {
+    list-style: none;
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.nav-home ul li a{
+    position: relative;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: rgb(100, 100, 100);
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.nav-home ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(86, 128, 79);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.75s;
+}
+
+.nav-home ul li a:hover:after{
+    width: 100%;
+}
+
+.nav-home ul li a:hover{
+    color: black;
+}
+
+/* submenu style */
+.nav-home ul .submenu {
+    display: block;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 20px 45px #00000020;
+    padding: 10px 0px;
+    opacity: 0;
+    pointer-events: none; /* 🔥 This is the key line */
+    z-index: -10;
+    transition: opacity 0.5s ease;
+}
+
+
+
+.nav-home ul .submenu li{
+    padding: 10px 0px;
+}
+
+.nav-home ul li:hover .submenu {
+    opacity: 1;
+    pointer-events: auto; /* 🔥 Now it becomes interactive */
+    z-index: 99;
+}
+
+
+/* #endregion */
+
 /* #region hero page */
 
 .hero-content #banner {
@@ -94,7 +175,6 @@ nav ul li:hover .submenu{
     width: 100%;
     height: auto;
     margin: 0;
-    padding-top: 67px;
 }
 
 /* #endregion */
@@ -370,7 +450,7 @@ nav ul li:hover .submenu{
 .cv-container {
     font-family: Georgia, serif;
     line-height: 1.6;
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
     padding: 2rem;
     color: #222;

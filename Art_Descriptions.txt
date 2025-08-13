@@ -53,13 +53,28 @@ PORTRAITS
 "Joe and Alma Clinger" - 2x3 (my grandparents)
 "Phoebe" - 11x14
 
-BOTANICAL ART - GARDEN WATERCOLORS
+GARDEN WATERCOLORS
 "Baptisia and Apricots" - 5.5x8
 "Garden Chair" - 5.5x8
 "Gate at Morven" - 5.5x8
 "Painting by the Lake" - 8x10
 "Rose Cottage" - 5.5x8
 "Topiary" - 4x5
+
+BOTANICAL ART (From left to right, top to bottom)
+"Red Osier Dogwood" - 15x19
+"Red Clover" - 5x7
+"Clematis" - 11x14
+"Geneva Apple" - 13x15
+"Turtlehead and Smartweed" - 15x19
+"Juneberry" - 5x5
+"Texas Bluebonnet" - 11x14
+"Bumble Bee" - 4x4
+"Viola" - 15x19
+"Burr Oak Leaf" - 11x14
+"Pansies" - 3x3
+"Wintergreen and Fly Agaric" - 9x12
+"Primrose" - 7x9
 
 ILLUMINATED LETTERS
 "Letter E" - 7x7
